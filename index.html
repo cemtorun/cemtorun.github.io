@@ -26,50 +26,92 @@
 
 <body>
 
-    <h1>Cem Torun</h1>
+    <section class="container-fluid">
+        <!-- container fluid as a bit of padding on left and right so px-0 fixes that-->
 
-    <!-- NAVBAR -->
-
-
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home</a>
-                <a class="nav-item nav-link" href="#">About Me</a>
-                <a class="nav-item nav-link" href="#">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a class="nav-item nav-link" href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-
-
-            </div>
-        </div>
-    </nav>
-
-
-    <!-- FOOTER -->
-
-    <section class="container">
         <div class="row">
-            <div class="col-6">
-                <div class="footer">
-                    <p class="mb-0">Cem Torun</p>
-                    <p class="mb-0">Bioinformatics and Business</p>
-                    <a href="cemtorun283@gmail.com">cemtorun283@gmail.com</a>
-                    <a href="#"><i class="far fa-envelope"></i></a>
+
+            <div class="col-lg-8 px-0">
+                <!-- img-fluid is a bootstrap class to make images responsive, it changes max-width to 100% and height to auto, makes it so the images scale down at different sizes-->
+                <img class="img-fluid" src="images/IMG_0083.JPG">
+            </div>
+
+            <div class="col-lg-4 px-0">
+                <!-- makes it so the the text is gone, then at lg and above its there-->
+                <!-- <div id="headingGroup" class="text-center text-white d-none d-lg-block mt-5"> -->
+                <div class="jumbotron">
+
+                    <div id="first" class="lead">Dictionary</div>
+
+                    <i onclick="playSound();" id="volume" class="fas fa-volume-up"></i>
+
+                    <span id="name" class="display-4">
+                        cem to·run
+                    </span>
+
+                    <p id="pronounciation" class="lead">/jem 'tôr'ən/</p>
+
+                    <audio id="audio" src="audio/name.m4a" autoplay="false"></audio>
+
+                    <p><em>proper noun</em></p>
+
+                    <hr class="my-4">
+
+                    <p>1. student studying bioinformatics and business, with a passion for coding, solving
+                        problems, and
+                        building things.</p>
+                    <p>2. all you can eat buffet connoisseur.</p>
+                    <p>3. pretty cool guy if you ask his mom.</p>
+                    <p>4. man of habit.</p>
+
+                    <div class="lead"> Learn more about me below!</div>
+
+
                 </div>
             </div>
+
+
+
+
+
         </div>
     </section>
 
+    <section id="links" class="container-fluid">
+
+        <div class="row text-center">
+
+            <div class="col-lg-4">
+                <a href="https://www.linkedin.com/in/cem-torun/">
+                    <button type="button" class="btn btn-md">LinkedIn</button>
+                </a>
+            </div>
+
+            <div class="col-lg-4">
+                <a href="https://github.com/cemtorun">
+                    <button type="button" class="btn btnbtn-md">Github</button>
+                </a>
+            </div>
+
+            <div class="col-lg-4">
+                <a
+                    href="https://devpost.com/cemtorun?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav">
+                    <button type="button" class="btn btn btn-md">Devpost</button>
+                </a>
+
+            </div>
+
+    </section>
+
+
+
+    <script src="app.js"></script>
 
 </body>
+
+
+
+
+
 
 </html>
