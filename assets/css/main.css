@@ -38,11 +38,45 @@ body {
 
 #links {
     margin-top: -10px;
-    width: 70%;
     margin-bottom: 60px;
-    
 }
 
-#link:hover {
-    background: rgb(70, 134, 207);
+/* #link {
+    background: #DEF0EC;
+    border: 1px solid  rgb(70, 134, 207);
+    border-radius: 15px;
+    padding: 10px; 
+    width: 90px;
+    height: 50px; 
+} */
+
+a { 
+    display: inline-block;
+}
+
+#github {
+    font-size: 30px;
+    padding-right: 20px;
+    color: black;
+}
+
+#linkedin {
+    font-size: 30px;
+    padding-right: 20px;
+    color: black;
+}
+
+#email {
+    font-size: 30px;
+    color: black;
+}
+
+#linkedin:hover{
+    color: rgb(70, 134, 207);
+}
+#github:hover{
+    color: rgb(70, 134, 207);
+}
+#email:hover{
+    color: rgb(70, 134, 207);
 }
