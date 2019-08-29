@@ -2,11 +2,43 @@ body {
     background: #DEF0EC;
 }
 
-.footer {
-    font-family: Inconsolata;
-    text-align: end;
+/* body {
+    overflow-x: hidden !important;
+} */
+
+.jumbotron {   
+    background:  #DEF0EC;
+ }
+
+ #pronounciation {
+    margin-top: -10px;
+    margin-left: 55px;
+    margin-bottom: 30px;
+ }
+
+ #volume {
+     font-size: 1.5em;
+     color: rgb(70, 134, 207);
+     border-radius: 50px;
+     box-shadow: 0px 0px 2px #888;
+     padding: 0.4em 0.4em;  
+ }
+
+ #volume:hover {
+     background: white;
+ }
+
+#name {
+    margin-top: 50px;
 }
 
-h1 {
-    font-family: Lato;
+#first {
+    margin-bottom: 30px;
+}
+
+#links {
+    margin-top: 40px;
+    width: 70%;
+    margin-bottom: 40px;
+    
 }
